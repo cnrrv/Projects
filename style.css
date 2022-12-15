@@ -40,4 +40,5 @@ li {
 
 a, a:active, a:hover {
 	text-decoration: none;
+	color: black;
 }
