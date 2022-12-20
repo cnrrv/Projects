@@ -9,20 +9,30 @@ a, a:active, a:hover {
 	text-decoration: none;
 }
 
+#problem, #coin, #team {
+    padding-top: 84px;
+    margin-top: -84px;
+}
+
 body {
 	font-family: Roboto, sans-serif;
 	width: 1213px;
 }
 
 .head {
+	width: 1213px;
+	height: 84px;
+	background-color: #007765;
+	position: fixed;
+	
+}
+
+.back-head {
+	width: 1213px;
 	height: 84px;
 	background-color: #007765;
 }
 
-.head-back {
-	height: 84px;
-	background-color: #007765;
-}
 .head-logo {
 	float: left;
 	padding: 20px 0 19px 55px;
@@ -89,8 +99,8 @@ body {
 }
 
 .intro-box {
-	height: 604px;
-	padding: 0 55px;
+	height: 640px;
+	padding: 36px 55px 92px 55px;
 	background-color: white;
 }
 
@@ -103,7 +113,7 @@ body {
 }
 
 .intro-text-box {
-	padding-top: 16px;
+	/* padding-top: 16px; */
 }
 
 .intro-img {
@@ -125,8 +135,48 @@ body {
 
 .team-box {
 	height: 845px;
-	padding: 0 145px;
+	padding: 48px 145px 0 145px;
 	background-color: #EEEEEE;
+}
+
+.team-header {
+	text-align: center;
+	font-size: 64px;
+	color: #007765;
+	font-weight: 500;
+	padding-top: 48px;
+}
+
+.content {
+	margin-top: 56px;
+}
+
+.card {
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	margin-bottom: 82px;
+}
+	
+.card-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-header {
+	margin-top: 12px;
+	text-align: center;
+	font-size: 24px;
+	color: #007765;
+	font-weight: 700;
+}
+
+.card-text {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
 }
 
 .footer {
@@ -142,19 +192,3 @@ body {
 	text-align: center;
 	color: white;
 }
-
-/* .content {
-	margin-top: 56px;
-	margin-bottom: 60px;
-}
-
-.card {
-	display: inline-block;
-	width: 350px;
-	height: 200px;
-	padding: 0 91px;
-}
-	
-.card-title {
-	text-align: center;
-} */
