@@ -87,6 +87,7 @@ body {
 .quote-img {
 	height: 484px;
 	background-image: url('img/second.png');
+	padding: 48px 55px 92px 55px;
 }
 
 .quote {
@@ -186,7 +187,6 @@ body {
 }
 
 .footer-text {
-	text-align: senter;
 	font-weight: 400;
 	font-size: 18px;
 	text-align: center;

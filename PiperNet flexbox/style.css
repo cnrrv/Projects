@@ -22,25 +22,22 @@ body {
 .head {
 	background-color: #007765;
 	height: 84px;
-	width: 100%;
+	width: 100%;	
+}
+
+.head.up {
 	position: fixed;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.back-head {
-	background-color: #007765;
-	height: 84px;
-	width: 100%;
-}
-
 .head-logo {
-	padding-left: 50px;
+	padding-left: 55px;
 }
 
 .menu {
-	padding-right: 50px;
+	padding-right: 55px;
 	color: white;
 	font-size: 24px;
 }
@@ -49,14 +46,14 @@ body {
 	display: inline-block;
 }
 
-.header-img {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-image: url('img/prevue.png');
+.img {
 	height: 400px;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.first-img {
+	background-image: url('img/prevue.png');
 }
 
 .first-header {
@@ -64,14 +61,17 @@ body {
 	color: white;
 }
 
-.parent-main-box {
+.parent {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #EEEEEE;
 }
 
+.main-bg {
+	background-color: #EEEEEE;
+}
+	
 .main-box {
 	width: 80%;
 	padding: 48px 55px 92px 55px;
@@ -94,15 +94,10 @@ body {
 	text-align: justify;
 }
 
-.quote-img {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+
+.second-img {
 	background-image: url('img/second.png');
-	height: 400px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	
 }
 
 .quote {
@@ -114,11 +109,7 @@ body {
 	color: white;
 }
 
-.parent-intro-box {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.intro-bg {
 	background-color: white;
 }
 
@@ -127,46 +118,29 @@ body {
 	padding: 36px 55px 92px 55px;
 }
 
-.intro-header {
-	font-size: 64px;
-	color: #007765;
-	text-align: center;
-	font-weight: 500;
-	padding-bottom: 16px;
-}
-
 .intro-img {
 	float: left;
 	padding: 16px 48px 37px 0;
 }
 
-.intro-text {
-	font-weight: 400;
-	font-size: 32px;
-	text-align: justify;
+.intro-text-box {
+	padding-top: 16px;
 }
+	
+/* .intro-logo {
+	padding-bottom: 40px;
+} */
 
-.intro-logo {
+.main-text.intro-logo {
+	padding-top: 16px;
 	padding-bottom: 40px;
 }
 
-.parent-team-box {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.team-bg {
 	background-color: #EEEEEE;
 }
-
+	
 .team-box {
-	/* none */
-}
-
-.team-header {
-	text-align: center;
-	font-size: 64px;
-	color: #007765;
-	font-weight: 500;
 	padding-top: 48px;
 }
 
@@ -205,12 +179,9 @@ body {
 	margin-bottom: 30px;
 }
 
-.parent-footer {
+.footer-bg {
 	background-color: #333333;
 	height: 300px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .footer {
