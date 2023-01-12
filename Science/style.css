@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	width: 100%;
+}
+
+.parent {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.container {
+	margin: 0 50px;
+}
+
+.portfolio {
+	height: 342px;
+	background-color: #E9ECEF;
+	padding: 64px 55px;
+}
+
+.main-header {
+	font-weight: 300;
+	color: #212529;
+	font-size: 72px;
+}
+
+.main-text {
+	font-weight: 400;
+	font-size: 16px;
+	color: #212529;
+}
+
+.main {
+	display: flex;
+	align-items: flex-start;
+	margin: 32px 55px;
+}
+
+@media screen and (max-width: 1213px) {
+	.main {
+		justify-content: space-between;
+	}
+	
+}
+
+@media screen and (min-width: 1213px) {
+	.profile {
+		margin-right: 30px;
+	}
+} 
+
+.card {
+	display: flex;
+}
+
+
+
+.card-header {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: black;
+}
+
+.card-title {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: black;
+}
+
+.card-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: black;
+	margin-bottom: 0.5em;
+}
+
+.main-table {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 32px 55px 70px 55px;
+}
+
+.table {
+	margin: 0;
+}
+
+.table td, .table th {
+	padding: 15px 20px;
+}
+
+td {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+th {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+}
+
+.colored {
+	color: #007BFF;
+}
+
+.center {
+	text-align: center;
+}
+
+.footer {
+	height: 51px;
+	background-color: #F5F5F5;
+	
+}
+
+.footer-text {
+	font-size: 16px;
+	color: #6C757D;
+	height: 400;
+	margin: 0 55px;
+}
