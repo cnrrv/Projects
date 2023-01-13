@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+p {
+	margin: 0;
+}
+
+
 body {
 	font-family: Roboto, sans-serif;
 	width: 100%;
@@ -25,7 +30,6 @@ body {
 
 .portfolio {
 	background-color: #E9ECEF;
-	padding: 64px 55px;
 }
 
 .main-header {
@@ -38,6 +42,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	color: #212529;
+	margin-bottom: 16px;
 }
 
 .main {
@@ -47,6 +52,12 @@ body {
 
 /*Адаптация для широкоформатных экранов (lg)*/
 @media screen and (max-width: 1219px) {
+	.container {
+		margin: 0 50px;
+	}
+	.portfolio {
+		padding: 64px 50px;
+	}
 	.main {
 		padding: 32px 55px;
 	}
@@ -54,22 +65,39 @@ body {
 		margin-right: 30px;
 	}
 	.main-table {
-		margin: 32px 55px 70px 55px;
+		margin: 0 55px 70px 55px;
 	}
+	.footer {
+		padding: 16px 39px;
+	}
+	
 } 
 
 /*Адаптация для средних экранов (md)*/
 @media screen and (max-width: 768px) {
+	.container {
+		margin: 0 32px;
+	}
 	.main {
-		padding: 32px 55px;
+		padding: 32px 32px;
+	}
+	
+	.portfolio {
+		padding: 72px 32px 64px 32px;
 	}
 	.profile {
 		margin-right: 30px;
 	}
+	.main-table {
+		margin: 32px 32px 64px 32px;
+	}
+	.footer {
+		padding: 16px 32px;
+	}
 }
 
 /*Адаптация для телефонов (sm)*/
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 	.main {
 		flex-wrap: wrap;
 		align-items: stretch;
@@ -85,11 +113,12 @@ body {
 		margin-right: 0;
 		margin-bottom: 30px;
 	}
-	.footer-text {
+	.footer {
 		padding: 16px 90px 16px 15px;
 	}
 	.main-table {
 		margin: 0 0 77px 16px;
+	}
 } 
 
 .card {
