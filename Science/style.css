@@ -8,10 +8,21 @@ p {
 	margin: 0;
 }
 
+.row {
+	margin-bottom: 15px;
+}
+
+.form-label {
+	margin-bottom: 0;
+}
 
 body {
 	font-family: Roboto, sans-serif;
 	width: 100%;
+}
+
+.card {
+	box-shadow: 5px 5px 5px #bdbdbd;
 }
 
 .parent {
@@ -30,7 +41,14 @@ body {
 
 .portfolio {
 	background-color: #E9ECEF;
+	transition: background-color .3s linear;
+	
 }
+
+.portfolio:hover {
+	background-color: gray;
+}
+	
 
 .main-header {
 	font-weight: 300;
@@ -49,7 +67,7 @@ body {
 	display: flex;
 	align-items: flex-start;
 }
-
+	
 /*Адаптация для широкоформатных экранов (lg)*/
 @media screen and (max-width: 1219px) {
 	.container {
@@ -94,6 +112,7 @@ body {
 	.footer {
 		padding: 16px 32px;
 	}
+
 }
 
 /*Адаптация для телефонов (sm)*/
@@ -119,7 +138,12 @@ body {
 	.main-table {
 		margin: 0 0 77px 16px;
 	}
-} 
+	.modal-body {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}	
+		
 
 .card {
 	display: flex;
