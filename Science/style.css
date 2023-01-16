@@ -72,6 +72,27 @@ body {
 	display: flex;
 	align-items: flex-start;
 }
+
+@media screen and (min-width: 1219px) {
+	.container {
+		margin: 0 50px;
+	}
+	.portfolio {
+		padding: 64px 50px;
+	}
+	.main {
+		padding: 32px 55px;
+	}
+	.profile {
+		margin-right: 30px;
+	}
+	.main-table {
+		margin: 0 55px 70px 55px;
+	}
+	.footer {
+		padding: 16px 39px;
+	}
+} 
 	
 /*Адаптация для широкоформатных экранов (lg)*/
 @media screen and (max-width: 1219px) {
@@ -92,6 +113,9 @@ body {
 	}
 	.footer {
 		padding: 16px 39px;
+	}
+		.main-table {
+		justify-content: center;
 	}
 	
 } 
@@ -116,6 +140,9 @@ body {
 	}
 	.footer {
 		padding: 16px 32px;
+	}
+		.main-table {
+		justify-content: center;
 	}
 
 }
@@ -146,6 +173,9 @@ body {
 	.modal-body {
 		display: flex;
 		flex-wrap: wrap;
+	}
+	.main-table {
+		justify-content: center;
 	}
 }	
 		
@@ -179,7 +209,6 @@ body {
 .main-table {	
 	display: flex;
 	align-items: center;
-	justify-content: center;
 }
 
 .table {
