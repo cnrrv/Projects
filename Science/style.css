@@ -12,11 +12,16 @@ p {
 	margin-bottom: 15px;
 }
 
+.logo {
+	padding: 8px;
+}
+
 .form-label {
 	margin-bottom: 0;
 }
 
 body {
+	padding-top: 55px;
 	font-family: Roboto, sans-serif;
 	width: 100%;
 }
@@ -37,12 +42,12 @@ body {
 
 .container {
 	margin: 0 50px;
+	padding: 0;
 }
 
 .portfolio {
 	background-color: #E9ECEF;
 	transition: background-color .3s linear;
-	
 }
 
 .portfolio:hover {
@@ -116,7 +121,7 @@ body {
 }
 
 /*Адаптация для телефонов (sm)*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {	
 	.main {
 		flex-wrap: wrap;
 		align-items: stretch;
