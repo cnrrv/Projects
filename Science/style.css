@@ -22,7 +22,6 @@ p {
 }
 
 body {
-	padding-top: 55px;
 	font-family: Roboto, sans-serif;
 	width: 100%;
 }
@@ -42,12 +41,12 @@ body {
 	margin: 0;
 }
 
-.container {
-	margin: 0 50px;
-	padding: 0;
+.nav-link {
+	font-size: 20px;
 }
 
 .portfolio {
+	margin-top: 55px;
 	background-color: #E9ECEF;
 	transition: background-color .3s linear;
 }
@@ -98,8 +97,8 @@ body {
 	
 /*Адаптация для широкоформатных экранов (lg)*/
 @media screen and (min-width: 1219px) {
-	.container {
-		margin: 0 50px;
+	.container-fluid {
+		padding: 0 50px;
 	}
 	.portfolio {
 		padding: 64px 50px;
@@ -124,8 +123,8 @@ body {
 
 /*Адаптация для средних экранов (md)*/
 @media screen and (max-width: 1219px) {
-	.container {
-		margin: 0 32px;
+	.container-fluid {
+		padding: 0 32px;
 	}
 	.main {
 		padding: 32px 32px;
@@ -159,8 +158,11 @@ body {
 	.main-header {
 		font-size: 42px;
 	}
+	.container-fluid {
+		padding: 0 16px;
+	}
 	.portfolio {
-		padding: 32px 30px 48px 40px;
+		padding: 32px 16px;
 	}
 	.profile {
 		margin-right: 0;
