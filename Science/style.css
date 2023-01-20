@@ -95,7 +95,7 @@ body {
 } 
 	
 /*Адаптация для широкоформатных экранов (lg)*/
-@media screen and (max-width: 1219px) {
+@media screen and (min-width: 1219px) {
 	.container {
 		margin: 0 50px;
 	}
@@ -121,7 +121,7 @@ body {
 } 
 
 /*Адаптация для средних экранов (md)*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1219px) {
 	.container {
 		margin: 0 32px;
 	}
@@ -148,7 +148,7 @@ body {
 }
 
 /*Адаптация для телефонов (sm)*/
-@media screen and (max-width: 320px) {	
+@media screen and (max-width: 768px) {	
 	.main {
 		flex-wrap: wrap;
 		align-items: stretch;
