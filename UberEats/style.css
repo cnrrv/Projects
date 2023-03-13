@@ -12,13 +12,27 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
-
-.sign-in {
+.row button {
+	font-size: 13px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: center;
+    padding: 12px 21px;
 	margin-right: 16px;
 }
 
+button:hover {
+	background-color: #dddddd;
+}
+
+.card:hover {
+	background-color: #dddddd;
+}
+	
 header {
-	height: 72px;
+	height: ;
 	width: 100%;
 	position: fixed;
 	background-color: #FFFFFF;
@@ -26,10 +40,11 @@ header {
 }
 
 .row {
+	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0;
+	margin: 16px 0;
 	padding: 0 8px;
 }
 
@@ -137,28 +152,47 @@ header {
 	margin: 40px 0;
 }
 
-.container {
-	margin-right: auto;
-	margin-left: auto;
+.btn-up {
+	position: fixed;
+	bottom: 24px;
+	right: 16px;
+}
+	
+.lang {
+	height: 40px;
+    width: 100%;
+    background: #3B3B3B;
+    border-radius: 2px;
+	margin-bottom: 33px;
+}
+
+select {
+    width: 70%;
+    bottom: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: white;
+    border: none;
+    background-color: #3B3B3B;
+    appearance: none;
+    background: url(img/arrow.png) 96% / 8% no-repeat #3B3B3B;
+}
+
+.globe {
+	padding: 12px 16px 12px 16px;
+}
+
+.arrow {
 }
 
 @media screen and (min-width: 1200px) {
-	.row {
-		width: 1184px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
 	.appstore {
 		margin-right: 40px;
 	}
 }
 
 @media screen and (max-width: 1200px) {
-	.nav {
-		padding: 0 80px;
-	}
-
 	.appstore {
 		margin-right: 40px;
 	}
@@ -167,17 +201,10 @@ header {
 
 
 @media screen and (max-width: 576px) {
-	.nav {
-		padding: 0 16px;
-	}
 
 	.basket {
 		display: none;
 	}
-	.sign-in {
-		margin-right: 0;
-	}
-
 	.cards {
 		flex-wrap: wrap;
 		align-items: stretch;
