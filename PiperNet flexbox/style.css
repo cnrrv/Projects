@@ -94,9 +94,7 @@ body {
 	text-align: justify;
 }
 
-
-
-.second-img {
+.quote-img {
 	background-image: url('img/second.png');
 }
 
@@ -107,6 +105,7 @@ body {
 	font-size: 48px;
 	font-style: italic;
 	color: white;
+	padding: 48px 55px;
 }
 
 .intro-bg {
